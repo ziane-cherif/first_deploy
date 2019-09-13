@@ -8,7 +8,7 @@ public class App {
 		fruits[0]= new Pomme(60);
 		
 		for(int i=0; i<fruits.length; i++) {
-			fruits[i].affichePoids();
+			fruits[i].afficher();
 			
 		}
 
