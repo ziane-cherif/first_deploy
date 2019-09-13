@@ -7,9 +7,10 @@ public class App {
 		fruits[0]= new Orange(70);
 		fruits[0]= new Pomme(60);
 		
-		for(Fruit f:fruits) {
-			f.afficher();
-			
+		for(int i=0; i<fruits.length; i++) {
+			if(fruits[i] instanceof Pomme) {
+			((Pomme)fruits[i]).afficher();
+			}else ((Orange)fruits[i]).afficher();
 		}
 
 	}
